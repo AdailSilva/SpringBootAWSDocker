@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/spring-boot-aws-docker")
-public class HelloWorldController {
+public class HelloWorldResource {
 	
 	@GetMapping("/hello-world")
 	private List<String> all() {
